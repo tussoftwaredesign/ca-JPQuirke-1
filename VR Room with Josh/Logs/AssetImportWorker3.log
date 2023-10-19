@@ -1,0 +1,769 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32477 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55750
+Successfully changed project path to: C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh
+C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13596] Host "[IP] 192.168.23.156 [Port] 0 [Flags] 2 [Guid] 3117760286 [EditorId] 3117760286 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13596] Host "[IP] 192.168.23.156 [Port] 0 [Flags] 2 [Guid] 3117760286 [EditorId] 3117760286 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 28.84 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3619
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006141 seconds.
+- Loaded All Assemblies, in  0.334 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.230 seconds
+Domain Reload Profiling: 562ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (230ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.645 seconds
+Refreshing native plugins compatible for Editor in 11.85 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <787acc3c9a4c471ba7d971300105af24>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <2e279d988b9d4542841de511fbfdf8c2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1321ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (519ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 10.26 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6175 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (364.7 KB). Loaded Objects now: 6662.
+Memory consumption went from 237.5 MB to 237.2 MB.
+Total: 4.827600 ms (FindLiveObjects: 0.667000 ms CreateObjectMapping: 0.702500 ms MarkObjects: 3.233900 ms  DeleteObjects: 0.223500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.21 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (290.7 KB). Loaded Objects now: 6662.
+Memory consumption went from 116.3 MB to 116.0 MB.
+Total: 4.732200 ms (FindLiveObjects: 0.626500 ms CreateObjectMapping: 0.631400 ms MarkObjects: 3.386300 ms  DeleteObjects: 0.086700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1391094.422717 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Corners/Corner_5A.prefab
+  artifactKey: Guid(f195714e71a5c2041907cd631458b224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Corners/Corner_5A.prefab using Guid(f195714e71a5c2041907cd631458b224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792a5d89ff7d43cfb744f3f6f1a9569a') in 0.365971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Corners/Corner_7A.prefab
+  artifactKey: Guid(af6261c53791aaf4abfc6911727177a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Corners/Corner_7A.prefab using Guid(af6261c53791aaf4abfc6911727177a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f191dc41e264497ed201e0e98e209c5c') in 0.025970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.552 seconds
+Refreshing native plugins compatible for Editor in 11.43 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <787acc3c9a4c471ba7d971300105af24>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <2e279d988b9d4542841de511fbfdf8c2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 1400ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (302ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 15.23 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4347 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 679 unused Assets / (6.2 MB). Loaded Objects now: 6085.
+Memory consumption went from 182.9 MB to 176.7 MB.
+Total: 6.512500 ms (FindLiveObjects: 0.699300 ms CreateObjectMapping: 0.558700 ms MarkObjects: 3.104000 ms  DeleteObjects: 2.149400 ms)
+
+Prepare: number of updated asset objects reloaded= 77
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.041010 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Corners/Corner_7B.prefab
+  artifactKey: Guid(a8188ff02276595458f9a97cb9749ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Corners/Corner_7B.prefab using Guid(a8188ff02276595458f9a97cb9749ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e59fd185088e0f748d8ce8bf086eae') in 0.101685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Corners/Corner_4C.prefab
+  artifactKey: Guid(8ad02a1275c734a4698a6001986b7f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Corners/Corner_4C.prefab using Guid(8ad02a1275c734a4698a6001986b7f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e691dd17b7db66bc4d584528ce34c2ad') in 0.079136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 187
+========================================================================
+Received Import Request.
+  Time since last request: 0.672782 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Houses/House8.prefab
+  artifactKey: Guid(71adca0decb8bcc49aacf03ce0eba097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Houses/House8.prefab using Guid(71adca0decb8bcc49aacf03ce0eba097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6549fc9547d4f9baf8dcaa2f1ad0ee49') in 0.255668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8307
+========================================================================
+Received Import Request.
+  Time since last request: 117.800558 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/AO_Concrete_001.png
+  artifactKey: Guid(bf883a6724561e644958849dd87335de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/AO_Concrete_001.png using Guid(bf883a6724561e644958849dd87335de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65aae47e58f159b9d18d3eb48e348798') in 0.033475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/BC_Asphalt_001.png
+  artifactKey: Guid(7b14802af7044314eabe42de33f24ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/BC_Asphalt_001.png using Guid(7b14802af7044314eabe42de33f24ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8df7e658aba8eca5d4b23e9d72e251') in 0.033710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/AO_Concrete_002.png
+  artifactKey: Guid(d6f8ce128c159a64e8407422576fa504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/AO_Concrete_002.png using Guid(d6f8ce128c159a64e8407422576fa504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd815671f0f24f02a5696b01e0c0dc250') in 0.034002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/BC_Clay_001.png
+  artifactKey: Guid(e4f9a6f9924fe604a8f0132fb22f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/BC_Clay_001.png using Guid(e4f9a6f9924fe604a8f0132fb22f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186d38fdfcff390087507b03dee62752') in 0.031142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/BC_Iron_002.png
+  artifactKey: Guid(a23216905766401488bb45b4248a5a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/BC_Iron_002.png using Guid(a23216905766401488bb45b4248a5a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e746638f2a84f243d1c6bc9a0b0353dc') in 0.037950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/AO_Tiles_001.png
+  artifactKey: Guid(60528ba5231ddc445beb75fdb1edb27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/AO_Tiles_001.png using Guid(60528ba5231ddc445beb75fdb1edb27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bccde6b54a98783d74663d0af08a8e') in 0.017555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/BC_Iron_001.png
+  artifactKey: Guid(228c9378581291a40a60c42fd1075d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/BC_Iron_001.png using Guid(228c9378581291a40a60c42fd1075d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd987b56c67836403a9788aa729b2d557') in 0.017525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/AO_Tile_003.png
+  artifactKey: Guid(1c19ef850245c594e8e8916fdf3370f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/AO_Tile_003.png using Guid(1c19ef850245c594e8e8916fdf3370f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225c9d05d50d6a349d14bffd0bfdc606') in 0.018777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/AO_Grass_001.png
+  artifactKey: Guid(0ddf5b667a786314c9e6d25f1214c517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/AO_Grass_001.png using Guid(0ddf5b667a786314c9e6d25f1214c517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86f208eced4c1964edee335cf5a4ca2') in 0.020265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/Hg_Ext_Tile_001.png
+  artifactKey: Guid(c118ddea0b0ab13468f8ee778ea9cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/Hg_Ext_Tile_001.png using Guid(c118ddea0b0ab13468f8ee778ea9cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03122c1283fde6fe87d452b3bdb2712') in 0.020182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/AO_Plate_001.png
+  artifactKey: Guid(594fb5d4252e1e9469e289ca3aa59fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/AO_Plate_001.png using Guid(594fb5d4252e1e9469e289ca3aa59fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdd63479f05c60de7807832952786c2') in 0.020611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/AO_Wood_007.png
+  artifactKey: Guid(3c0b549f3ec4df543a849a416b1935d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/AO_Wood_007.png using Guid(3c0b549f3ec4df543a849a416b1935d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d69502677b5c16f00476c73e0ebfcde') in 0.018697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/BC_Concrete_002.png
+  artifactKey: Guid(f9ea22a1bbd54b24c9354279a5e2b178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/BC_Concrete_002.png using Guid(f9ea22a1bbd54b24c9354279a5e2b178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b33887ce61e0a7717cef6868bda2b2e') in 0.020520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/AO_Iron_001.png
+  artifactKey: Guid(05bca1c3169c381498aac06e88056a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/AO_Iron_001.png using Guid(05bca1c3169c381498aac06e88056a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1693262d492bd5395837c6f85d47bae1') in 0.019170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ModularHousePack1/Art/Textures/BC_Tile_003.png
+  artifactKey: Guid(bed202719ea69f543ba69752f7dd50a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Textures/BC_Tile_003.png using Guid(bed202719ea69f543ba69752f7dd50a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a16e469851e436a10e9c79090e8d8a') in 0.019314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.193897 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Floors/RoofFloor.prefab
+  artifactKey: Guid(beb740d872f755c4797491edaa67e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Floors/RoofFloor.prefab using Guid(beb740d872f755c4797491edaa67e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534764a8a0d03937c906e6c3a5254425') in 0.027995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 2.266535 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Roads/Road_4.prefab
+  artifactKey: Guid(7b9f3c8d21e94104890a51e94bdb7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Roads/Road_4.prefab using Guid(7b9f3c8d21e94104890a51e94bdb7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918a4bcb7664873e79e1d5c3ff39b175') in 0.080871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 1.817976 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Roofs/RoofC.prefab
+  artifactKey: Guid(76cdabe4d47d85247bc24b0b0e42f5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Roofs/RoofC.prefab using Guid(76cdabe4d47d85247bc24b0b0e42f5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b390f3ba21b305ab3d2261a782eceea') in 0.033164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Roofs/RoofD2.prefab
+  artifactKey: Guid(6694a56745f1eab4d8a1c5746e21639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Roofs/RoofD2.prefab using Guid(6694a56745f1eab4d8a1c5746e21639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c058482e292ad642d93020e0f9a7228') in 0.038656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Roofs/RoofFlat.prefab
+  artifactKey: Guid(5f472fdd4a3e8dc43b077bbcb652415a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Roofs/RoofFlat.prefab using Guid(5f472fdd4a3e8dc43b077bbcb652415a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34698300bfe4d4f7179ab9a957b1e809') in 0.042259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.727958 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Stairs/Stairs_1C.prefab
+  artifactKey: Guid(5b2c98a592c5c86428e36ea6a85911d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Stairs/Stairs_1C.prefab using Guid(5b2c98a592c5c86428e36ea6a85911d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7ba6bbb5d0cba36cfcfdbe874d11b1') in 0.052572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Stairs/Stairs_4B.prefab
+  artifactKey: Guid(8e9d29f60e7f7f04e8a72005b29d3e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Stairs/Stairs_4B.prefab using Guid(8e9d29f60e7f7f04e8a72005b29d3e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730fbc74a06299cae802205f66e9be91') in 0.069107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 2.055493 seconds.
+  path: Assets/ModularHousePack1/Art/Prefabs/Modules/Walls/Wall_2A.prefab
+  artifactKey: Guid(9ecc2ebd70186d24e9bf13c60234c241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularHousePack1/Art/Prefabs/Modules/Walls/Wall_2A.prefab using Guid(9ecc2ebd70186d24e9bf13c60234c241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4dc99e59cd0f213f771542842d4c6c') in 0.024121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 26.435056 seconds.
+  path: Assets/Challenges/02_3DPainting/Prefabs/Sphere.prefab
+  artifactKey: Guid(6ef8d58cf4a104c42bf4a745de06d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/02_3DPainting/Prefabs/Sphere.prefab using Guid(6ef8d58cf4a104c42bf4a745de06d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41917d9f5c463dcb2c910c61c0b37783') in 0.043054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.54 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 6012.
+Memory consumption went from 102.3 MB to 102.3 MB.
+Total: 4.761500 ms (FindLiveObjects: 0.539700 ms CreateObjectMapping: 0.500700 ms MarkObjects: 3.697900 ms  DeleteObjects: 0.022500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.414 seconds
+Refreshing native plugins compatible for Editor in 10.85 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <787acc3c9a4c471ba7d971300105af24>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <2e279d988b9d4542841de511fbfdf8c2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.884 seconds
+Domain Reload Profiling: 1295ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 10.06 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (2.3 MB). Loaded Objects now: 6095.
+Memory consumption went from 177.7 MB to 175.3 MB.
+Total: 5.243500 ms (FindLiveObjects: 0.500800 ms CreateObjectMapping: 0.512900 ms MarkObjects: 3.354700 ms  DeleteObjects: 0.874200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142.191120 seconds.
+  path: Assets/DreamForestTree/TreesModels/bush 2_Textures/normal_specular.png
+  artifactKey: Guid(d7f613fe5f693f44c8a0917dc4787d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/bush 2_Textures/normal_specular.png using Guid(d7f613fe5f693f44c8a0917dc4787d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b770d19af22faa13266d5a151d5d26df') in 0.061484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DreamForestTree/TreesModels/bush 2_Textures/translucency_gloss.png
+  artifactKey: Guid(325b1d0623db01344bea0d91ba9bd0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/bush 2_Textures/translucency_gloss.png using Guid(325b1d0623db01344bea0d91ba9bd0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27675cd5c548bc6833f35e9c60be0bd') in 0.037397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.486800 seconds.
+  path: Assets/DreamForestTree/TreesModels/RedWood 3_Textures/normal_specular.png
+  artifactKey: Guid(4ef0e4f288bc40249ac9c68a50114447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/RedWood 3_Textures/normal_specular.png using Guid(4ef0e4f288bc40249ac9c68a50114447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208e2c63102d8009bbda028439e7cd06') in 0.019511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DreamForestTree/TreesModels/RedWood 3_Textures/shadow.png
+  artifactKey: Guid(71062ee7019f6d34394e6ab917305648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/RedWood 3_Textures/shadow.png using Guid(71062ee7019f6d34394e6ab917305648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ee582db58b776ac7d4652bc8cac998') in 0.017821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.983879 seconds.
+  path: Assets/DreamForestTree/TreesModels/bush 1_Textures/normal_specular.png
+  artifactKey: Guid(c7a8a1a5c6b940444901716129dc4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/bush 1_Textures/normal_specular.png using Guid(c7a8a1a5c6b940444901716129dc4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf120f3c0075f645684806f2d279e69') in 0.020170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DreamForestTree/TreesModels/bush 1_Textures/translucency_gloss.png
+  artifactKey: Guid(cefe572908d310642a2bc469bc4799c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/bush 1_Textures/translucency_gloss.png using Guid(cefe572908d310642a2bc469bc4799c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03cd598c7a845942ad4359137956a42') in 0.017679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.111394 seconds.
+  path: Assets/DreamForestTree/TreesModels/RedWood 5_Textures/normal_specular.png
+  artifactKey: Guid(6a5ffc35a1583db4a87aa5a275ee0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/RedWood 5_Textures/normal_specular.png using Guid(6a5ffc35a1583db4a87aa5a275ee0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55d7c2994a85c605a052a501aec8231') in 0.019768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DreamForestTree/TreesModels/RedWood 5_Textures/translucency_gloss.png
+  artifactKey: Guid(e2e09d3ddebbff148b61304933f5bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/RedWood 5_Textures/translucency_gloss.png using Guid(e2e09d3ddebbff148b61304933f5bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace1c5eb301dd6b63ea75ad5087b54fa') in 0.012424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.165173 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_15_Day_a.png
+  artifactKey: Guid(fca5a57d63136f6428a1d31d1ab2c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_15_Day_a.png using Guid(fca5a57d63136f6428a1d31d1ab2c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406a21174d6badb8f04b20f42055a05a') in 0.485181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png
+  artifactKey: Guid(b4503954fd147c94180872808dde9eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png using Guid(b4503954fd147c94180872808dde9eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b595c5f54da70408c52244099ead294') in 0.099561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png
+  artifactKey: Guid(b15764350a2285e49a165af927da5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png using Guid(b15764350a2285e49a165af927da5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292607a2cf459a5d68532afbe5af5bda') in 0.080063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.061852 seconds.
+  path: Assets/DreamForestTree/TreesModels/RedWood 2_Textures/shadow.png
+  artifactKey: Guid(2d1eb959e9bbe124f99827bf1a2f4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/RedWood 2_Textures/shadow.png using Guid(2d1eb959e9bbe124f99827bf1a2f4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc244e5ff75fcf9589ed338474fbf46') in 0.014827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DreamForestTree/TreesModels/RedWood 2_Textures/translucency_gloss.png
+  artifactKey: Guid(71ea8ac4f7d863642ab5f69a157bfbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/TreesModels/RedWood 2_Textures/translucency_gloss.png using Guid(71ea8ac4f7d863642ab5f69a157bfbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7308a77b72aefa6b56216230280e709') in 0.011777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.203555 seconds.
+  path: Assets/DreamForestTree/Shaft/shaft.mat
+  artifactKey: Guid(60c22c2cc1c23a341911b5d9a861c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamForestTree/Shaft/shaft.mat using Guid(60c22c2cc1c23a341911b5d9a861c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82d0c7511905be226633345f6438360') in 0.036158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
