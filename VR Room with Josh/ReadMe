@@ -1,0 +1,76 @@
+The Initial Project plan:
+
+The initial project plan was to create a game that had players rob a house that was implemented into the game. Once the player enters the house using the crow bar
+tool outside they could then look into the sitting room to find one of the items they are searching for.Once the player walks into the house they are forced to put the
+hat on that's placed on the counter top which is located In the house hall to keep themselves disugised.
+
+Then the other item needs to be found.The item is a key to somehow access the drift car out front.
+once they find that key there is another key to leave the house. I wanted to implement other ideas such as having a npc walk around the house so the player could feel 
+fear or some sort of addreneiliene. 
+
+I wanted the player to use the music to their advantage by picking an upbeat song to give them confidence or "hype" them up.
+The future i have want to implement by my own soon, is to have the car driveable and add more interactables such as jewellery and fnacy items, with a bag they can place the 
+items into.
+
+I added lighting and into the rooms to create a different way to locate around the house as a hint. Outside has trees and a road out of the building and other lighting
+feautures such as the lamposts. I also wanted to add more more tools hidden outside to break in and also add a way to break in through a window and more areas to access
+in the house.
+
+
+What I completed:  
+
+
+The implemetations i had completed conclude of:
+- Lighting outside,lighting outside, the trees,grass,car model implemented, somea sockets and audio!
+
+The lighting outside and inside where my favourite things to work on during the demo. I never played with lighting feautures and it was something new to me.
+i learned a lot from completing the task and trying to figure out what way i like the way something looks. I found great joy out of it. 
+
+The trees outside made the map look more eery in my opinion and i thought it looked great with the map i had created. although i did want to add a forest and a lake of 
+some sort so the player can explore the forest also that might include more houses. Along with the grass that i wish i had stylized textures for and something i want to work
+on is to somehow make the grass move with the wind.
+
+The car was an idea i thought i could make come to life. It would have been great to add more houses so the player can use the car outside the starter
+house to get around to other facilites and steal things there. which excited me and makes me want to add more to the game in the near future as a side project.
+
+The sockets i have are using the key for the door and the hat. The door does not want to work the way i want it to and took me a while to fix that. i also need
+to scale the key down to fit the players hand properly and the hat should work.
+
+The reason i picked a techno song to with the game was to keep players interested and uppbeat and somewhat alert. In my eyes i would not want to play a thief 
+simulator with music thats slow paced as i would find it boring. I feel the music makes it more fast paced and keeps the player on their toes.
+
+
+
+What is currently in progress:
+
+The key has a problem when it touches off the door it closes instead of openeing. I need to add a trigger so the door closes and locks after the player opens with the 
+tool or object that is left outside, the crowbar or object left outside is not setup yet to open the door to break into the actual house. The key also needs to be scaled down
+to fit the players hand.
+
+The key for the car does not work and needs to be setup, the car also is not driveable.
+
+The Tv in the sitting room needs a remote to be turned on and i want to find a video that shows something to do with robbing houses. i also want to add a npc that can be 
+woken up once the tv is turned on and tries to catch the player.
+
+Adding the npc is something i want to do but i am not sure how to accomplish it, i think it would be great to add it to scare the player and also adds more realism to
+the project.
+
+
+
+Self Reflection.
+
+
+I know it might not seem i have not completed enough for the project demo but to me i feel like i achieved a lot. this project had multiple problems with the XR Rig at the
+start and it took me a while to figure out what to do with it. i had to import it over to the original VR Room i started with.
+
+i learnt a lot when it came to lighting,
+messing around with the sockets and also my creativity when it comes to creating Video Games.I enjoyed creating the map for the player, and took into account what would I
+like as an enjoyer of video games.
+
+I believe it has given me confidence for future projects and this is only a 
+leanring curve for the future. i would have loved to completed the tasks i have given myself but it also showed me i should have maybe chosen a smaller project, althought
+i enjoyed the idea for the game and i really don't want to stop making it as i'm very excited to see whats to come in the future for the game and to help me achieve more
+with future projects.
+
+
+
