@@ -1,0 +1,401 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32477 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+53790
+Successfully changed project path to: C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh
+C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10412] Host "[IP] 192.168.23.156 [Port] 0 [Flags] 2 [Guid] 3002485968 [EditorId] 3002485968 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10412] Host "[IP] 192.168.23.156 [Port] 0 [Flags] 2 [Guid] 3002485968 [EditorId] 3002485968 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 15.30 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3619
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006020 seconds.
+- Loaded All Assemblies, in  0.313 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.214 seconds
+Domain Reload Profiling: 526ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (214ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (163ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.623 seconds
+Refreshing native plugins compatible for Editor in 13.82 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <787acc3c9a4c471ba7d971300105af24>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <2e279d988b9d4542841de511fbfdf8c2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.667 seconds
+Domain Reload Profiling: 1287ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (668ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 16.94 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 6153 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (3.4 MB). Loaded Objects now: 6622.
+Memory consumption went from 212.0 MB to 208.6 MB.
+Total: 7.233000 ms (FindLiveObjects: 0.697200 ms CreateObjectMapping: 0.663700 ms MarkObjects: 4.782200 ms  DeleteObjects: 1.089000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1732869.991658 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting
+  artifactKey: Guid(ed90ab490f62c4056a7e90df2d38bfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting using Guid(ed90ab490f62c4056a7e90df2d38bfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ed3c30132659b39e6cb130d40dce7d') in 0.002491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 165.713799 seconds.
+  path: Assets/Alstrainfinite
+  artifactKey: Guid(21b30a2c6a9f0134fba77c7ef6a94a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite using Guid(21b30a2c6a9f0134fba77c7ef6a94a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ca0e36bf8053a60aeef12178eaeec3') in 0.000676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.795377 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances
+  artifactKey: Guid(db3abe7ce66bacc4e8d3d59737898a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances using Guid(db3abe7ce66bacc4e8d3d59737898a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a183971465847bb463ef6ec5d270e6') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.662133 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models
+  artifactKey: Guid(091d9f0df1f5c714d99a3e3ccb16b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models using Guid(091d9f0df1f5c714d99a3e3ccb16b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb304dc0ccdc2be26979c3a60cea96f0') in 0.000520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074750 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/AirFryer.fbx
+  artifactKey: Guid(fa17e2793e3579542973f014c87702a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/AirFryer.fbx using Guid(fa17e2793e3579542973f014c87702a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dfd14378e637756b65440178866739') in 0.164660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Fridge.fbx
+  artifactKey: Guid(7791aa6beaaa15148b5287a0538526d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Fridge.fbx using Guid(7791aa6beaaa15148b5287a0538526d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f29f4818d3e1453eed29780091f202') in 0.062766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/FridgeSBS.fbx
+  artifactKey: Guid(b37603f8ea8ba83489df2180bfd8eef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/FridgeSBS.fbx using Guid(b37603f8ea8ba83489df2180bfd8eef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a37eb170bfdb45a0104c5302bc0e39') in 0.052001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Fan.fbx
+  artifactKey: Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Fan.fbx using Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b2d3829d9b53810caec5304ec5b3') in 0.042922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Stove.fbx
+  artifactKey: Guid(6a4e254c0b0d9214ea7b53f9c0c43b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Stove.fbx using Guid(6a4e254c0b0d9214ea7b53f9c0c43b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb9594b287512b456d19f987dd71c22') in 0.024043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Stovetop.fbx
+  artifactKey: Guid(01bb90b911a563f4997a757b1861c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Stovetop.fbx using Guid(01bb90b911a563f4997a757b1861c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cdd9a90be1bbc4443da6644e1436e8') in 0.038326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.738591 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation
+  artifactKey: Guid(57d7cd2539f065b49830e264668c6083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation using Guid(57d7cd2539f065b49830e264668c6083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc2bc64c0eed50ab1e05754d488012d') in 0.000557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065608 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/AirFryer.fbx
+  artifactKey: Guid(0ac85a8a32feb7f43b8246c295d7a2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/AirFryer.fbx using Guid(0ac85a8a32feb7f43b8246c295d7a2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf96fabbe997806478c45288ba34db9e') in 0.029743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Microwave_Oven.fbx
+  artifactKey: Guid(aa542ce8ee9f0a949b16c7a5f7856136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Microwave_Oven.fbx using Guid(aa542ce8ee9f0a949b16c7a5f7856136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c1ade7f5e53f78c58941ef67fed779') in 0.035763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Fan.fbx
+  artifactKey: Guid(0318c65d68ffd844abcfda15620f3577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Fan.fbx using Guid(0318c65d68ffd844abcfda15620f3577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaf71eda4d889bf7a2526314c5a84b0') in 0.021676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/FanV2.fbx
+  artifactKey: Guid(1b1bc434cbde3e84080f2381d5ab4b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/FanV2.fbx using Guid(1b1bc434cbde3e84080f2381d5ab4b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9094f895be26bbf634b6a5f0db2a581f') in 0.024295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Stove.fbx
+  artifactKey: Guid(18925ea6c93987e49979c5fcda598980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Stove.fbx using Guid(18925ea6c93987e49979c5fcda598980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8634fc153964492ff58465f4f3f06b1e') in 0.073534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Dryer.fbx
+  artifactKey: Guid(da85c7832cc94284ea2e41c9715697e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Dryer.fbx using Guid(da85c7832cc94284ea2e41c9715697e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b8b734696b5ec3d7cc7766e094c365') in 0.030407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 7.268442 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Coffee Maker.prefab
+  artifactKey: Guid(026bbb898b925f54b9fc6523b72e5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Coffee Maker.prefab using Guid(026bbb898b925f54b9fc6523b72e5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b764ef42bdfadd228614769a21006e') in 0.015791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge.prefab
+  artifactKey: Guid(7b5ec1159cb969d4a8fe69fddc2f17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge.prefab using Guid(7b5ec1159cb969d4a8fe69fddc2f17d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2b7495e106d2ffcfcda55421da6ba0') in 0.025026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Washer.prefab
+  artifactKey: Guid(f767cce13dd852b4cbd5894364ae969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Washer.prefab using Guid(f767cce13dd852b4cbd5894364ae969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedff41b445cf1ff764600f2ab88342c') in 0.017665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stove.prefab
+  artifactKey: Guid(158f818f5cdf7f54f8cb6f3b74f535c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Stove.prefab using Guid(158f818f5cdf7f54f8cb6f3b74f535c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c52aeaaef6ee4ed2f8661cf9ba9665') in 0.025438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge_SBS.prefab
+  artifactKey: Guid(51ed19930404371458e8d3152edbad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/Fridge_SBS.prefab using Guid(51ed19930404371458e8d3152edbad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1567d16f0681f928f012bddb9ceb6a6') in 0.052489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 6.010880 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/CoffeeMaker.prefab
+  artifactKey: Guid(14fe1c4e689c6a14eb4f39a6eba45554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/CoffeeMaker.prefab using Guid(14fe1c4e689c6a14eb4f39a6eba45554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84446ee3ff13c492cb9aaf8a8f8b09c4') in 0.020130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Washer.prefab
+  artifactKey: Guid(bbf651e99fd157f4e822b8b66371a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Prefabs/(Old) Version1.0/Washer.prefab using Guid(bbf651e99fd157f4e822b8b66371a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a719ffd13f93837f186467de9a084c') in 0.036144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
