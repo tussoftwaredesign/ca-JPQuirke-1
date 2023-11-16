@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16085 MB
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32477 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity 2022.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/VR Room with Josh
+C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50007
-Successfully changed project path to: C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/VR Room with Josh
-C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/VR Room with Josh
+55965
+Successfully changed project path to: C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh
+C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/VR Room with Josh
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26856] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 3309249450 [EditorId] 3309249450 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13560] Host "[IP] 192.168.23.156 [Port] 0 [Flags] 2 [Guid] 3436501088 [EditorId] 3436501088 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26856] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 3309249450 [EditorId] 3309249450 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13560] Host "[IP] 192.168.23.156 [Port] 0 [Flags] 2 [Guid] 3436501088 [EditorId] 3436501088 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 25.13 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.73 ms.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 1999.80 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.76 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/VR Room with Josh/Assets
+[Subsystems] Discovering subsystems at path C:/Users/a00299206/Documents/GitHub/ca-JPQuirke-1/VR Room with Josh/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
     Vendor:   NVIDIA
-    VRAM:     3991 MB
-    Driver:   31.0.15.1694
+    VRAM:     10067 MB
+    Driver:   31.0.15.3619
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006790 seconds.
-- Loaded All Assemblies, in  0.451 seconds
+Registered in 0.102025 seconds.
+- Loaded All Assemblies, in  5.462 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.313 seconds
-Domain Reload Profiling: 763ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 5703ms
+	BeginReloadAssembly (3993ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (192ms)
-		LoadAssemblies (140ms)
+	RebuildCommonClasses (387ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (921ms)
+		LoadAssemblies (3991ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (188ms)
-				TypeCache.ScanAssembly (170ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (314ms)
+		AnalyzeDomain (919ms)
+			TypeCache.Refresh (917ms)
+				TypeCache.ScanAssembly (696ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (242ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (240ms)
+		SetupLoadedEditorAssemblies (186ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (161ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 763ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.864 seconds
-Refreshing native plugins compatible for Editor in 28.23 ms, found 12 plugins.
+- Loaded All Assemblies, in 13.347 seconds
+Refreshing native plugins compatible for Editor in 253.25 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,47 +147,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.991 seconds
-Domain Reload Profiling: 1848ms
-	BeginReloadAssembly (183ms)
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 14140ms
+	BeginReloadAssembly (4048ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (570ms)
-		LoadAssemblies (378ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (342ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (8873ms)
+		LoadAssemblies (12227ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (290ms)
-			TypeCache.Refresh (247ms)
-				TypeCache.ScanAssembly (224ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (991ms)
+		AnalyzeDomain (629ms)
+			TypeCache.Refresh (587ms)
+				TypeCache.ScanAssembly (521ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (796ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (716ms)
+		SetupLoadedEditorAssemblies (598ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (487ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 19.36 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 6156 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 91 unused Assets / (1.4 MB). Loaded Objects now: 6649.
-Memory consumption went from 212.7 MB to 211.3 MB.
-Total: 5.831300 ms (FindLiveObjects: 0.646100 ms CreateObjectMapping: 0.563100 ms MarkObjects: 4.086200 ms  DeleteObjects: 0.534500 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 13.43 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 6157 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (3.4 MB). Loaded Objects now: 6628.
+Memory consumption went from 213.0 MB to 209.6 MB.
+Total: 6.125200 ms (FindLiveObjects: 0.691700 ms CreateObjectMapping: 0.635400 ms MarkObjects: 3.655900 ms  DeleteObjects: 1.141300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -202,70 +202,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 376422.619539 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Models/Mixer.fbx
-  artifactKey: Guid(d18450aa2239d6748a7bcc1dacb1c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Mixer.fbx using Guid(d18450aa2239d6748a7bcc1dacb1c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a2df2b3c5a894db08d49adf61177a0') in 0.185128 seconds
+  Time since last request: 3558207.902899 seconds.
+  path: Assets/KajamansRoads/Materials/2RoadMat.mat
+  artifactKey: Guid(fce506d6213fc8645809d972536683b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/2RoadMat.mat using Guid(fce506d6213fc8645809d972536683b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f41f985a4895acd56a5aedd43cedc21') in 0.153990 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.70 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (3.4 MB). Loaded Objects now: 6670.
+Memory consumption went from 114.3 MB to 111.0 MB.
+Total: 5.827600 ms (FindLiveObjects: 0.635100 ms CreateObjectMapping: 0.575800 ms MarkObjects: 3.603800 ms  DeleteObjects: 1.012000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Fan.fbx
-  artifactKey: Guid(0318c65d68ffd844abcfda15620f3577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Fan.fbx using Guid(0318c65d68ffd844abcfda15620f3577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571df02bf5f3b76a47d6df4bc5c96928') in 0.059414 seconds
+  Time since last request: 318.585568 seconds.
+  path: Assets/prefabs
+  artifactKey: Guid(3728b8416fed6f3468fe66a11059e39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs using Guid(3728b8416fed6f3468fe66a11059e39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e5dae05605c06c04a4a2d7163f2aed') in 0.004779 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/FanV2.fbx
-  artifactKey: Guid(1b1bc434cbde3e84080f2381d5ab4b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/FanV2.fbx using Guid(1b1bc434cbde3e84080f2381d5ab4b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5983b4049580f9dd5e7c9dd0e3a007') in 0.051857 seconds
+  Time since last request: 0.051687 seconds.
+  path: Assets/prefabs/Chandelier_Modern.prefab
+  artifactKey: Guid(83f080567693d734f800e0f027f283fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Chandelier_Modern.prefab using Guid(83f080567693d734f800e0f027f283fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775b5297f2b096555038644a2f48246a') in 0.066793 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Mixer.fbx
-  artifactKey: Guid(ea8e93118a7927544a41c3ed730ce340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Mixer.fbx using Guid(ea8e93118a7927544a41c3ed730ce340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e1fd23dd7ef0cc9bde280cf629e414') in 0.020580 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/prefabs/House4.prefab
+  artifactKey: Guid(a4d037f2b580a4f4b82ae90d98b958ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/House4.prefab using Guid(a4d037f2b580a4f4b82ae90d98b958ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'FrontMainDoor': Transition 'AnyState -> FrontDoorMainidle' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 1841]
+
+ -> (artifact id: 'd13390a138bb5d07d0c915d374bbeab6') in 1.067331 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 8021
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Dryer.fbx
-  artifactKey: Guid(da85c7832cc94284ea2e41c9715697e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Seperated For Animation/Dryer.fbx using Guid(da85c7832cc94284ea2e41c9715697e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0dc6c4c88bbfc8301663b2f0daa3c3') in 0.032076 seconds
+  Time since last request: 3.303710 seconds.
+  path: Assets/prefabs/Bring to new Scene.prefab
+  artifactKey: Guid(e07c6879849cc8148a22f3ce9f7bda4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bring to new Scene.prefab using Guid(e07c6879849cc8148a22f3ce9f7bda4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) ArgumentNullException: Value cannot be null.
+Parameter name: shader
+  at (wrapper managed-to-native) UnityEngine.Material.CreateWithShader(UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00008] in <10871f9e312b442cb78b9b97db88fdcb>:0 
+  at PlayVideo.OnValidate () [0x00000] in C:\Users\a00299206\Documents\GitHub\ca-JPQuirke-1\VR Room with Josh\Assets\_Course Library\Scripts\Actions\PlayVideo.cs:131 
+
+(Filename: Assets/_Course Library/Scripts/Actions/PlayVideo.cs Line: 131)
+
+Asset 'FrontMainDoor': Transition 'AnyState -> FrontDoorMainidle' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 1841]
+
+ -> (artifact id: 'c84b7f0aa4cd656f5502de8bc153cd24') in 0.595311 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 13.095952 seconds.
-  path: Assets/_Course Library/Materials/Object Materials/Material_Main_Matte.mat
-  artifactKey: Guid(b4d6302e31e55472d96a0cbb775a6314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Object Materials/Material_Main_Matte.mat using Guid(b4d6302e31e55472d96a0cbb775a6314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e1339cb3857ba4fd23be5e52a6afc0') in 0.042139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/_Course Library/Materials/Object Materials/Material_Screen.mat
-  artifactKey: Guid(af26e43a4b66c490585872caba5bf1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Object Materials/Material_Screen.mat using Guid(af26e43a4b66c490585872caba5bf1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497e5c58417ba86f7bcce0789ed3e49a') in 0.025436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/_Course Library/Materials/Object Materials/Material_Wood_Dark.mat
-  artifactKey: Guid(e7b638a089431c04bb74a1b4b8db697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Object Materials/Material_Wood_Dark.mat using Guid(e7b638a089431c04bb74a1b4b8db697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1816350d3dcdd822de0c184a1a4b96') in 0.028513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 17660
