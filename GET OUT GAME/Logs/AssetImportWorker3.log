@@ -15,7 +15,7 @@ C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53609
+59029
 Successfully changed project path to: C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
 C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19296] Host "[IP] 192.168.178.168 [Port] 0 [Flags] 2 [Guid] 2954235887 [EditorId] 2954235887 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15096] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 3041902261 [EditorId] 3041902261 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19296] Host "[IP] 192.168.178.168 [Port] 0 [Flags] 2 [Guid] 2954235887 [EditorId] 2954235887 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15096] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 3041902261 [EditorId] 3041902261 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 44.87 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 1.19 ms.
+Refreshing native plugins compatible for Editor in 22.81 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.94 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME/Assets
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010502 seconds.
-- Loaded All Assemblies, in  0.634 seconds
+Registered in 0.004599 seconds.
+- Loaded All Assemblies, in  0.332 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.481 seconds
-Domain Reload Profiling: 1112ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  0.215 seconds
+Domain Reload Profiling: 545ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (247ms)
-		LoadAssemblies (203ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (108ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (243ms)
-			TypeCache.Refresh (240ms)
-				TypeCache.ScanAssembly (218ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (482ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (215ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (383ms)
+		SetupLoadedEditorAssemblies (170ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (16ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (254ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 1112ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.319 seconds
-Refreshing native plugins compatible for Editor in 26.52 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.603 seconds
+Refreshing native plugins compatible for Editor in 11.14 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,52 +147,53 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.309 seconds
-Domain Reload Profiling: 2623ms
-	BeginReloadAssembly (270ms)
+- Finished resetting the current domain, in  0.626 seconds
+Domain Reload Profiling: 1226ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (897ms)
-		LoadAssemblies (622ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (270ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (435ms)
-			TypeCache.Refresh (364ms)
-				TypeCache.ScanAssembly (329ms)
-			ScanForSourceGeneratedMonoScriptInfo (52ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1310ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (627ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (972ms)
+		SetupLoadedEditorAssemblies (480ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (702ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 24.84 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 18.70 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 4752 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (75.1 KB). Loaded Objects now: 5238.
-Memory consumption went from 158.4 MB to 158.3 MB.
-Total: 6.325500 ms (FindLiveObjects: 0.515100 ms CreateObjectMapping: 0.540300 ms MarkObjects: 5.020300 ms  DeleteObjects: 0.247600 ms)
+Unloading 76 unused Assets / (75.1 KB). Loaded Objects now: 5248.
+Memory consumption went from 160.1 MB to 160.0 MB.
+Total: 4.431100 ms (FindLiveObjects: 0.433800 ms CreateObjectMapping: 0.274100 ms MarkObjects: 3.550300 ms  DeleteObjects: 0.171400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -203,12 +204,76 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 72690.595652 seconds.
-  path: Assets/Scenes/Hates____.prefab
-  artifactKey: Guid(8d63fbb5efcff4a4cad2d858443960b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hates____.prefab using Guid(8d63fbb5efcff4a4cad2d858443960b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc83c16db11902665ac234c042e2c4ff') in 0.434369 seconds
+  Time since last request: 184236.161754 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV2.prefab
+  artifactKey: Guid(5fe0d2816183fb447b860ad12e13398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV2.prefab using Guid(5fe0d2816183fb447b860ad12e13398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3766614b94ad5a229a51a1af5f61ab04') in 0.127202 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 69.956215 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/EL-Truck.prefab
+  artifactKey: Guid(5849b222ccfe59f4b8d1d0e1b3790ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/EL-Truck.prefab using Guid(5849b222ccfe59f4b8d1d0e1b3790ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe25f8c40607fa0501c851ea9f648e7') in 0.009209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.011251 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MinivanV1.prefab
+  artifactKey: Guid(c8bdb63b6e1abbb44b66f46012db2421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MinivanV1.prefab using Guid(c8bdb63b6e1abbb44b66f46012db2421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589cc8e6b9821794943bbf645ea50342') in 0.047541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/Post-Truck.prefab
+  artifactKey: Guid(7b92377a44f0d9243959d01a2687b36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/Post-Truck.prefab using Guid(7b92377a44f0d9243959d01a2687b36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dd1b49ebc75bf890f59d5dbf4b49af') in 0.010296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/PickupV1.prefab
+  artifactKey: Guid(075830188e830aa48a04e027148bafe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/PickupV1.prefab using Guid(075830188e830aa48a04e027148bafe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926858270020520742c09e6feaeeb1a1') in 0.011069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV4.prefab
+  artifactKey: Guid(d1e9cd7841878ba4da8f592925f138dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV4.prefab using Guid(d1e9cd7841878ba4da8f592925f138dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a871391f1b563f1c4d0d6071139b67') in 0.008529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/PickupV2.prefab
+  artifactKey: Guid(4f13381abf38ac84e8d816732f52e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/PickupV2.prefab using Guid(4f13381abf38ac84e8d816732f52e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e389b67e5ae73e257ce672b0a29087') in 0.008128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV3.prefab
+  artifactKey: Guid(a2ae1699499bc2a4d8ccc4859fe14ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV3.prefab using Guid(a2ae1699499bc2a4d8ccc4859fe14ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fb0671d2fc1581e0521075f48324a8') in 0.009350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV1.prefab
+  artifactKey: Guid(ce4b4514e6a21384fb21dec6365d5812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV1.prefab using Guid(ce4b4514e6a21384fb21dec6365d5812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a1bc0feb2b52557f46e592545f3c57') in 0.010747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

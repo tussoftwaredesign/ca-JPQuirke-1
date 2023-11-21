@@ -1,0 +1,401 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+59029
+Successfully changed project path to: C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
+C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16692] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 3002179467 [EditorId] 3002179467 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16692] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 3002179467 [EditorId] 3002179467 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 16.11 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.74 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004944 seconds.
+- Loaded All Assemblies, in  0.324 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.206 seconds
+Domain Reload Profiling: 528ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (206ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.589 seconds
+Refreshing native plugins compatible for Editor in 16.39 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <787acc3c9a4c471ba7d971300105af24>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <2e279d988b9d4542841de511fbfdf8c2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.641 seconds
+Domain Reload Profiling: 1227ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (642ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (484ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 15.65 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4752 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (75.2 KB). Loaded Objects now: 5248.
+Memory consumption went from 160.1 MB to 160.0 MB.
+Total: 5.066100 ms (FindLiveObjects: 0.498700 ms CreateObjectMapping: 0.315300 ms MarkObjects: 4.070400 ms  DeleteObjects: 0.180500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 184920.949461 seconds.
+  path: Assets/Next-gen Electronics Pack/Materials
+  artifactKey: Guid(fddbbd831b9a96d45a2f047ac20dda70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Materials using Guid(fddbbd831b9a96d45a2f047ac20dda70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426f52c1dc62aeaa02f40b157c87e200') in 0.002825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048884 seconds.
+  path: Assets/Next-gen Electronics Pack/Materials/keyboard.mat
+  artifactKey: Guid(ca55bdf99f5d5784a830e70649b75484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Materials/keyboard.mat using Guid(ca55bdf99f5d5784a830e70649b75484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97da2ed6df06add034f7a8d188c0e4fc') in 0.270607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Next-gen Electronics Pack/Materials/tv.mat
+  artifactKey: Guid(0ee504427059f3442b51084689155516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Materials/tv.mat using Guid(0ee504427059f3442b51084689155516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d55a115d3635e620ca4437e6090595') in 0.052279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Next-gen Electronics Pack/Materials/pc.mat
+  artifactKey: Guid(cd70463cd935f0f4bbc34ef81bcbf28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Materials/pc.mat using Guid(cd70463cd935f0f4bbc34ef81bcbf28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe933d6c01391d1820927cc88964fc7') in 0.028185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Next-gen Electronics Pack/Materials/notebook.mat
+  artifactKey: Guid(e7a35a0d181e2e64cadbb987664ded15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Materials/notebook.mat using Guid(e7a35a0d181e2e64cadbb987664ded15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bdcb6d2071f1cf4d9010a68df9c4df') in 0.026302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Next-gen Electronics Pack/Materials/speaker.mat
+  artifactKey: Guid(9a63915ace64b1c46821190c25fde302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Materials/speaker.mat using Guid(9a63915ace64b1c46821190c25fde302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75834da6b01c30c410e354c9182c321b') in 0.023914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Next-gen Electronics Pack/Materials/mouse.mat
+  artifactKey: Guid(cf632c273737a454cae84481f16bf855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Materials/mouse.mat using Guid(cf632c273737a454cae84481f16bf855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65108fa03f49539ef216349d0028d74') in 0.013792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.852015 seconds.
+  path: Assets/Next-gen Electronics Pack/Models/keyboard.FBX
+  artifactKey: Guid(4b3f2dff688a2124e8a6476d1dd1bdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Models/keyboard.FBX using Guid(4b3f2dff688a2124e8a6476d1dd1bdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cea3d92a8beef0ef52f473a58e7850') in 0.040557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Next-gen Electronics Pack/Models/pc_speaker_L.FBX
+  artifactKey: Guid(34cb15d97288c974994b6b9830639010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Models/pc_speaker_L.FBX using Guid(34cb15d97288c974994b6b9830639010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460bbb650bfb520ef7bf47fc070893e9') in 0.014048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Next-gen Electronics Pack/Models/mouse.FBX
+  artifactKey: Guid(3d331a5d3fd85eb46b0b06f5d515041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Models/mouse.FBX using Guid(3d331a5d3fd85eb46b0b06f5d515041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5856a5dd38990dcc9807fe9028b97382') in 0.011826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Next-gen Electronics Pack/Models/pc.FBX
+  artifactKey: Guid(02dc8e998937b004bb3551d0aec13e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Models/pc.FBX using Guid(02dc8e998937b004bb3551d0aec13e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0483e973ae4fd9760572f630c2b7c2') in 0.019372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Next-gen Electronics Pack/Models/tv.FBX
+  artifactKey: Guid(22c917f4a0e985c4c9d238a02ea9e54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Models/tv.FBX using Guid(22c917f4a0e985c4c9d238a02ea9e54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aec4d0cb49cec9b1e249d41f8b569e7') in 0.012945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.252716 seconds.
+  path: Assets/Next-gen Electronics Pack/Prefabs/mouse.prefab
+  artifactKey: Guid(c4b913c419f33b44883a6dbde7f8f1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Prefabs/mouse.prefab using Guid(c4b913c419f33b44883a6dbde7f8f1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73209a22f93fd0fafed2e38b584b7e2a') in 0.021410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Next-gen Electronics Pack/Prefabs/pc_speaker_L.prefab
+  artifactKey: Guid(08583e5301d196a4c9d77a2c21db9c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Prefabs/pc_speaker_L.prefab using Guid(08583e5301d196a4c9d77a2c21db9c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d72d9dd726bc56dcc95e8a605c6dd3') in 0.143019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.797936 seconds.
+  path: Assets/Next-gen Electronics Pack/Textures/keyboard_s.psd
+  artifactKey: Guid(adf8fe3337728fb4fba7321eb56a4db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Textures/keyboard_s.psd using Guid(adf8fe3337728fb4fba7321eb56a4db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0632aa30b0ae5f0da4af842e465f1deb') in 0.043207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Next-gen Electronics Pack/Textures/pc_speakers_d.psd
+  artifactKey: Guid(8bfb1db05025bc74ab4797d5fb5d434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Textures/pc_speakers_d.psd using Guid(8bfb1db05025bc74ab4797d5fb5d434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16344933e04f194ca771fd4c3d8cff75') in 0.032049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Next-gen Electronics Pack/Textures/mouse_n.psd
+  artifactKey: Guid(dddd303a6ed579740b16922bf6a5af6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Textures/mouse_n.psd using Guid(dddd303a6ed579740b16922bf6a5af6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e095581e624d9fbf8cd21d82b5b6b1') in 0.045173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Next-gen Electronics Pack/Textures/notebook_d.psd
+  artifactKey: Guid(179786f13ad5ef441b497eac8233eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Textures/notebook_d.psd using Guid(179786f13ad5ef441b497eac8233eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03387754570d9e4e7682c87adb75b31b') in 0.029260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Next-gen Electronics Pack/Textures/notebook_n.psd
+  artifactKey: Guid(44fdb4cac6480374db0aca21e8b1ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Textures/notebook_n.psd using Guid(44fdb4cac6480374db0aca21e8b1ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359abcdb6cf2ca04ac3ff7e24a02433b') in 0.044232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.240734 seconds.
+  path: Assets/VRTemplateAssets/Models/Environment/Template Environment.fbx
+  artifactKey: Guid(00c9c177e828a57439e290aef2a23b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Models/Environment/Template Environment.fbx using Guid(00c9c177e828a57439e290aef2a23b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b780e57da6095db57d4013498cab289') in 0.234458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 4.661992 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/Interactables/Interactable Kinematic Torus.prefab
+  artifactKey: Guid(521327bdbcb341f782d36f02cab76cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/Interactables/Interactable Kinematic Torus.prefab using Guid(521327bdbcb341f782d36f02cab76cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535d98c98ef2153b4d1207df3eba8048') in 0.052560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/Interactables 5.mat
+  artifactKey: Guid(83eabfe673263a445972586e5d8b56ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/Interactables 5.mat using Guid(83eabfe673263a445972586e5d8b56ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f26ea0f7967c83a488f2807ed31891') in 0.030115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/Interactables.physicMaterial
+  artifactKey: Guid(10bde48ef542d6a4fbee12145283824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/Interactables.physicMaterial using Guid(10bde48ef542d6a4fbee12145283824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d06b02afc38fa70b1f17125cb21a535') in 0.001397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Course Library/Source Files/Models/Table_Dining_Modern.fbx
+  artifactKey: Guid(fc435bf53539ae54bbf8287a0789e28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Table_Dining_Modern.fbx using Guid(fc435bf53539ae54bbf8287a0789e28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da35622b3eadd28ccbcee9f60339c944') in 0.099282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
