@@ -1056,7 +1056,6 @@ GameObject:
   - component: {fileID: 3522908013150526533}
   - component: {fileID: 4553691629364277060}
   - component: {fileID: 4589200967889463984}
-  - component: {fileID: 422230997819512938}
   m_Layer: 3
   m_Name: XR Rig
   m_TagString: Untagged
@@ -1277,33 +1276,6 @@ CapsuleCollider:
   m_Height: 5.9999995
   m_Direction: 1
   m_Center: {x: -0.32285693, y: 1.3283402, z: 1.2274817e-12}
---- !u!54 &422230997819512938
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3599110939894197205}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 2
 --- !u!1 &4706329773976007886
 GameObject:
   m_ObjectHideFlags: 0

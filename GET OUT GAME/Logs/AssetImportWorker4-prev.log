@@ -15,7 +15,7 @@ C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-53609
+59029
 Successfully changed project path to: C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
 C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2672] Host "[IP] 192.168.178.168 [Port] 0 [Flags] 2 [Guid] 4154009813 [EditorId] 4154009813 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6152] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 3968443721 [EditorId] 3968443721 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2672] Host "[IP] 192.168.178.168 [Port] 0 [Flags] 2 [Guid] 4154009813 [EditorId] 4154009813 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6152] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 3968443721 [EditorId] 3968443721 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 42.36 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 1.15 ms.
+Refreshing native plugins compatible for Editor in 22.28 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.63 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME/Assets
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010781 seconds.
-- Loaded All Assemblies, in  0.685 seconds
+Registered in 0.004634 seconds.
+- Loaded All Assemblies, in  0.328 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.468 seconds
-Domain Reload Profiling: 1149ms
-	BeginReloadAssembly (232ms)
+- Finished resetting the current domain, in  0.233 seconds
+Domain Reload Profiling: 560ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (102ms)
-	LoadAllAssembliesAndSetupDomain (263ms)
-		LoadAssemblies (224ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (257ms)
-				TypeCache.ScanAssembly (231ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (107ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (469ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (234ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (369ms)
+		SetupLoadedEditorAssemblies (174ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (243ms)
-			ProcessInitializeOnLoadMethodAttributes (98ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 1149ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.112 seconds
-Refreshing native plugins compatible for Editor in 27.61 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.590 seconds
+Refreshing native plugins compatible for Editor in 12.16 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,52 +147,53 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.103 seconds
-Domain Reload Profiling: 2210ms
-	BeginReloadAssembly (232ms)
+- Finished resetting the current domain, in  0.643 seconds
+Domain Reload Profiling: 1230ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (733ms)
-		LoadAssemblies (502ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (268ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (351ms)
-			TypeCache.Refresh (297ms)
-				TypeCache.ScanAssembly (269ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1104ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (643ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (834ms)
+		SetupLoadedEditorAssemblies (470ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (603ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 30.95 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 20.56 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 4752 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (75.0 KB). Loaded Objects now: 5247.
-Memory consumption went from 159.8 MB to 159.7 MB.
-Total: 6.096600 ms (FindLiveObjects: 0.417400 ms CreateObjectMapping: 0.182300 ms MarkObjects: 5.259100 ms  DeleteObjects: 0.236300 ms)
+Unloading 76 unused Assets / (75.2 KB). Loaded Objects now: 5248.
+Memory consumption went from 160.1 MB to 160.0 MB.
+Total: 4.783600 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 0.292800 ms MarkObjects: 3.800000 ms  DeleteObjects: 0.220400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -201,8 +202,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 184232.957248 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly
+  artifactKey: Guid(f812d3546350757478c63654b3063527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly using Guid(f812d3546350757478c63654b3063527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb7523fcb42a29a1cac39cd181db05d') in 0.002444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.139010 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs
+  artifactKey: Guid(4091423c30484ad48b1e8c706ecb0ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs using Guid(4091423c30484ad48b1e8c706ecb0ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebebc581eaf439e1f508a6559af048c') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057052 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab
+  artifactKey: Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Ambulance-Truck.prefab using Guid(e778a23bbe795fc42827494e5d635524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd7fe298b71a4465c721678ee453d5f') in 0.121133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 69.893057 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1
+  artifactKey: Guid(5d3c465e3b690fb4a978316c0687c717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1 using Guid(5d3c465e3b690fb4a978316c0687c717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92722feb8c176b6035d064ea8bc3889f') in 0.000731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071688 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/Ambulance-Truck.prefab
+  artifactKey: Guid(37c436dd7b866664e90d19669a51fdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/Ambulance-Truck.prefab using Guid(37c436dd7b866664e90d19669a51fdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4ff523dcf10c1677ca35330f98715c') in 0.009556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.011594 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/IceCream-Truck.prefab
+  artifactKey: Guid(44cfb038444ccab46b1be84520896723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/IceCream-Truck.prefab using Guid(44cfb038444ccab46b1be84520896723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f142db675a25af8c5e5cf1bd2c995e') in 0.047802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SwiftoV2.prefab
+  artifactKey: Guid(fd82dfe3ac830874e8de29b73e27ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SwiftoV2.prefab using Guid(fd82dfe3ac830874e8de29b73e27ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52309235d79110dd1100e22e1116f684') in 0.010438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SuvV1.prefab
+  artifactKey: Guid(825aa5a53c5f967449d03cb21b435c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SuvV1.prefab using Guid(825aa5a53c5f967449d03cb21b435c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e23529a9e7eba0063df52c89ed2d03') in 0.010555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV2.prefab
+  artifactKey: Guid(416f4470def63b149ab58618fda592cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MuscleCarV2.prefab using Guid(416f4470def63b149ab58618fda592cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3491bb8256fffe6b3f246e884e946349') in 0.008296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MinivanV2.prefab
+  artifactKey: Guid(2374bd9f1dd3c204a8edcf1c4a55f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/MinivanV2.prefab using Guid(2374bd9f1dd3c204a8edcf1c4a55f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce956c35cb321abfe3b8a03956b354e') in 0.008573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SwiftoV1.prefab
+  artifactKey: Guid(1ad581c9347dbad4ba135f27bfffcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Version 1.1/SwiftoV1.prefab using Guid(1ad581c9347dbad4ba135f27bfffcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d072c4a76f2bcbdfcb541619193b8d') in 0.009880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
