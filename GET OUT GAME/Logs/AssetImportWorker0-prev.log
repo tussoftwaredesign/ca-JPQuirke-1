@@ -15,7 +15,7 @@ C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59029
+63065
 Successfully changed project path to: C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
 C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8388] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 1113163599 [EditorId] 1113163599 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7916] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 543302459 [EditorId] 543302459 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8388] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 1113163599 [EditorId] 1113163599 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7916] Host "[IP] 172.19.97.142 [Port] 0 [Flags] 2 [Guid] 543302459 [EditorId] 543302459 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 19.39 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 9.02 ms.
+Refreshing native plugins compatible for Editor in 24.09 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 6.56 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/bobst/OneDrive/Documents/ca-JPQuirke-1/GET OUT GAME/Assets
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006195 seconds.
-- Loaded All Assemblies, in  0.361 seconds
+Registered in 0.004483 seconds.
+- Loaded All Assemblies, in  0.301 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.251 seconds
-Domain Reload Profiling: 609ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.222 seconds
+Domain Reload Profiling: 522ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (142ms)
-		LoadAssemblies (107ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (92ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (126ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (102ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (251ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (223ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (191ms)
+		SetupLoadedEditorAssemblies (170ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 609ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.673 seconds
-Refreshing native plugins compatible for Editor in 12.27 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.627 seconds
+Refreshing native plugins compatible for Editor in 13.95 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,47 +147,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.700 seconds
-Domain Reload Profiling: 1369ms
-	BeginReloadAssembly (134ms)
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1295ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (451ms)
-		LoadAssemblies (310ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (283ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (216ms)
-			TypeCache.Refresh (178ms)
-				TypeCache.ScanAssembly (157ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (700ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (672ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (512ms)
+		SetupLoadedEditorAssemblies (501ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (369ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 11.64 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 14.85 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 4752 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (75.2 KB). Loaded Objects now: 5248.
+Unloading 76 unused Assets / (75.1 KB). Loaded Objects now: 5248.
 Memory consumption went from 160.1 MB to 160.0 MB.
-Total: 3.172900 ms (FindLiveObjects: 0.366000 ms CreateObjectMapping: 0.138200 ms MarkObjects: 2.466400 ms  DeleteObjects: 0.201200 ms)
+Total: 3.886000 ms (FindLiveObjects: 0.460600 ms CreateObjectMapping: 0.178600 ms MarkObjects: 2.979300 ms  DeleteObjects: 0.266200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -204,222 +204,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 184210.053804 seconds.
-  path: Assets/XR/XRGeneralSettings.asset
-  artifactKey: Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/XRGeneralSettings.asset using Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d050419e4802054b35b702103f79e4') in 0.019643 seconds
+  Time since last request: 529841.759660 seconds.
+  path: Assets/Next-gen Electronics Pack/Prefabs/pc.prefab
+  artifactKey: Guid(19951a7b87a9dd940b2f287b60439293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Next-gen Electronics Pack/Prefabs/pc.prefab using Guid(19951a7b87a9dd940b2f287b60439293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ed5ed68433147380385d42af93234c') in 0.112765 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 14.866156 seconds.
-  path: Assets/VRTemplateAssets/Audio/Button_14_hover.wav
-  artifactKey: Guid(b319a2e4ff8f5d840b82d8635b645d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Audio/Button_14_hover.wav using Guid(b319a2e4ff8f5d840b82d8635b645d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98895c87fc62db6365027d8f54021ae') in 0.118420 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/Ambulance-Truck.fbx
-  artifactKey: Guid(e0fde86dd1a01b6438467aa8e56cf4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/Ambulance-Truck.fbx using Guid(e0fde86dd1a01b6438467aa8e56cf4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57eabd72241208424466214d04411a6') in 0.105012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Material.mat
-  artifactKey: Guid(69cb2ba794a087b4abdf1b00110f8c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Material.mat using Guid(69cb2ba794a087b4abdf1b00110f8c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e832e15b0a12a26025afdbabfd52d9') in 0.027899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/UI_2D/Interactive Controls.prefab
-  artifactKey: Guid(7bbb1960bab3e75459304488d8d1ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/UI_2D/Interactive Controls.prefab using Guid(7bbb1960bab3e75459304488d8d1ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e86fb22d6b34f0ba6af6eab6069c9b7') in 0.016230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 103
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/MuscleCarV1.fbx
-  artifactKey: Guid(e90c326029e5d3049b66a15ff93c1fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/MuscleCarV1.fbx using Guid(e90c326029e5d3049b66a15ff93c1fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99993ac6a71600a0455c2bb5f69e24ee') in 0.028544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab
-  artifactKey: Guid(d5615d616019430d9c2e8727e71c97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab using Guid(d5615d616019430d9c2e8727e71c97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde14be0b9e5b0a22b28b0055ca4d95e') in 0.029045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/IceCream-Truck.fbx
-  artifactKey: Guid(36a6cf45f547fa24c8f1247dd50e40f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/IceCream-Truck.fbx using Guid(36a6cf45f547fa24c8f1247dd50e40f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961b6b5b936586da5982132ecc0d5ffe') in 0.015459 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/SuvV1.fbx
-  artifactKey: Guid(e075817dde471bc49b81d292d86c5b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/SuvV1.fbx using Guid(e075817dde471bc49b81d292d86c5b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657944d7560dd5d48345623df3eee6ac') in 0.062192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/PickupV1.fbx
-  artifactKey: Guid(d54d5083f75fe7e41891c4756c2a36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/PickupV1.fbx using Guid(d54d5083f75fe7e41891c4756c2a36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f11ff9afd8f3a1ede1129f5d2af3b40') in 0.053115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/SwiftoV2.fbx
-  artifactKey: Guid(bc0e4a8de3d3ba14fa7d18e3273c2397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/SwiftoV2.fbx using Guid(bc0e4a8de3d3ba14fa7d18e3273c2397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5d22ff7f1951492b28080efd0da03c') in 0.051708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/MinivanV1.fbx
-  artifactKey: Guid(4474cf470b6d7264bb08bbea8e9b8d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/MinivanV1.fbx using Guid(4474cf470b6d7264bb08bbea8e9b8d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c81d8fa0752bfb99d52d5509b28b40') in 0.050628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/MuscleCarV4.fbx
-  artifactKey: Guid(dc443d4488d1d304c92427d0aa825f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/MuscleCarV4.fbx using Guid(dc443d4488d1d304c92427d0aa825f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f32a341b29524bee6713c9b2993eb8') in 0.048536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/PickupV2.fbx
-  artifactKey: Guid(1b056cf053f08dd46b00931a9afc7825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/PickupV2.fbx using Guid(1b056cf053f08dd46b00931a9afc7825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f782e69a3ea549047782eca8c0e240') in 0.052327 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/EL-Truck.fbx
-  artifactKey: Guid(85acb44395dc5a24ba1a3fc34c9d74d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/EL-Truck.fbx using Guid(85acb44395dc5a24ba1a3fc34c9d74d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e252bf43dff50e043a6ef1ccc6a82ff') in 0.019463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/MuscleCarV3.fbx
-  artifactKey: Guid(b86a1d6e228f8eb4aa76173a536fa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/MuscleCarV3.fbx using Guid(b86a1d6e228f8eb4aa76173a536fa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06e48d856a4c487b42db3f20b59e419') in 0.017415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.742408 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/IceCream-Truck.fbx
-  artifactKey: Guid(ac2292034a9ff47448ea5a119b0126df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/IceCream-Truck.fbx using Guid(ac2292034a9ff47448ea5a119b0126df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd68d841495b6b070aeed5d53b39582') in 0.114104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Texture/PolyPackVehicles.png
-  artifactKey: Guid(c57073fb69dc53b4c85bcf894392ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Texture/PolyPackVehicles.png using Guid(c57073fb69dc53b4c85bcf894392ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872044f98223b5e380ad51fc57dd6b20') in 0.036065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/EL-Truck.fbx
-  artifactKey: Guid(75d270a4f8365ba4b92015d4570edc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/EL-Truck.fbx using Guid(75d270a4f8365ba4b92015d4570edc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ce4f53684c76b4224bb630348d930a') in 0.109430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/FlamingSands_Cars/generic/Materials/vehicle_generic_wheel.mat
-  artifactKey: Guid(9f7554198011c904fa0a29ae4aebbe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlamingSands_Cars/generic/Materials/vehicle_generic_wheel.mat using Guid(9f7554198011c904fa0a29ae4aebbe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6913ecb3e47387e92ecb33b54d3e5120') in 0.011139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/SuvV1.fbx
-  artifactKey: Guid(473e9620e81e95049a00ad3e856a290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.1/SuvV1.fbx using Guid(473e9620e81e95049a00ad3e856a290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fcd8230ac13ab2c06a5be8d497ff35') in 0.019913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/MuscleCarV2.fbx
-  artifactKey: Guid(d7e0e54e3a95cdf4e9768de81d8a2c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Models/Version 1.2/MuscleCarV2.fbx using Guid(d7e0e54e3a95cdf4e9768de81d8a2c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4efd8aa0f847fbd21935a45f6ed4f6') in 0.058461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FlamingSands_Cars/generic/vehicle_generic_detail.png
-  artifactKey: Guid(f9711bb1d880bbb4f99ee4c680f27751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlamingSands_Cars/generic/vehicle_generic_detail.png using Guid(f9711bb1d880bbb4f99ee4c680f27751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643ed38264b4ff877197527223ade299') in 0.015250 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/FlamingSands_Cars/generic/vehicle_generic_wheel_normal.png
-  artifactKey: Guid(911d8ef4688ae02489b2fd2991da0b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlamingSands_Cars/generic/vehicle_generic_wheel_normal.png using Guid(911d8ef4688ae02489b2fd2991da0b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3097dff0021e22dfb3c2322424b8fb8d') in 0.020376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.367435 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/IceCream-Truck.prefab
-  artifactKey: Guid(67071bebbe68fc545a3b606c434aa77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/IceCream-Truck.prefab using Guid(67071bebbe68fc545a3b606c434aa77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778f0c49969a67ad0d7f08e02a25e38d') in 0.018346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV3.prefab
-  artifactKey: Guid(b49c6f450a89f8642944078a1f09d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/MuscleCarV3.prefab using Guid(b49c6f450a89f8642944078a1f09d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1c1d55bbcb556b2fd2c2d431cdd716') in 0.014817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Post-Truck.prefab
-  artifactKey: Guid(ef80b440aca48474a9409086221c86b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstra Infinite/Vehicles LowPoly/Prefabs/Post-Truck.prefab using Guid(ef80b440aca48474a9409086221c86b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0e01d2905c13b0cad4e8494b7d6494') in 0.023103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 11
